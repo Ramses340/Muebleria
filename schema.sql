@@ -41,7 +41,11 @@ CREATE TABLE detalle_venta (
     FOREIGN KEY (producto_id) REFERENCES productos(id) ON DELETE CASCADE
 );
 
+<<<<<<< HEAD
 -- Datos iniciales opcionales
+=======
+-- Datos iniciales para hacer ejemplos
+>>>>>>> e9c9772 (Se agrego a la restful ahora apirest funcional con node y express y auntenticacion JWT)
 INSERT INTO productos (nombre, precio, stock)
 VALUES
 ('Silla de madera', 250.00, 10),

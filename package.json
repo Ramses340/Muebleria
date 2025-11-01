@@ -1,12 +1,16 @@
 {
-  "name": "muebleria",
+  "name": "muebleria-fixed",
   "version": "1.0.0",
-  "description": "Capa de acceso a datos para proyecto de mueblería",
-  "main": "test.js",
   "scripts": {
-    "start": "node test.js"
+    "test": "jest --runInBand",
+    "start": "node src/index.js"
   },
   "dependencies": {
-    "mysql2": "^3.3.3"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3"
   }
 }
